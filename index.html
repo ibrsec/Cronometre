@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch - Countdown</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./stopwatch.svg">
+</head>
+<body>
+    <div class="card">
+        <div class="head-part"></div>
+        <h3 class="stopwatch">Stop Watch</h3>
+        <div class="compelete-div"></div>
+        <div class="time-stopwatch">00:00:00</div>
+        <div class="buttons">
+            <button class="start" id="start-stopwatch">Start</button>
+            <button class="stop" id="stop-stopwatch">Stop</button>
+            <button class="reset" id="reset-stopwatch" disabled=true>Reset</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="head-part"></div>
+        
+        <h3 class="stopwatch">Count Down</h3>
+        <div class="countdown-input-div">
+            <input class='countdown-input hour-input' type="number" placeholder="Enter Hour">
+            <input class='countdown-input min-input' type="number" placeholder="Enter Min">
+        </div>
+        <div class="time-countdown">00:05:00</div>
+        <div class="buttons">
+            <button class="start" id="start-countdown">Start</button>
+            <button class="start" id="stop-countdown">Stop</button>
+            <button class="reset" id="reset-countdown" >Reset</button>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+:root {
+  --gray: #d3d6db;
+  --dark-gray: #3a4750;
+  --black: #303841;
+  --red: #be3144;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html {
+}
+body {
+  height: 100vh;
+  background-color: var(--dark-gray);
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  padding-top: 100px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  border-radius: 30px 30px 5px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.head-part{
+width: 100%;
+height: 20px;
+background-color: var(--black);
+border-radius:  5px 5px 0 0;
+
+}
+.stopwatch {
+  background-color: var(--gray);
+  width: 100%;
+  height: 100%;
+  padding: 50px 50px 40px;
+  border-radius: 0 0 40px 40px;
+  text-align: center;
+  border-top: 2px solid var(--red);
+  border-left: 2px solid var(--red);
+  border-right: 2px solid var(--red);
+  color: var(--red);
+}
+.countdown-input-div {
+  /* background-color: var(--gray); */
+  /* border-top: none;
+  border-bottom: none; */
+  border-left: 2px solid var(--red);
+  border-right: 2px solid var(--red);
+  display: flex;
+  align-items: center;
+  /* margin: 0 30px 0 30px; */
+}
+.compelete-div{
+    height: 15.5px;
+    width:160px;
+    border-left: 2px solid var(--red);
+  border-right: 2px solid var(--red);
+  background-color: var(--gray);
+
+}
+.countdown-input{
+    width: 80px;
+    background-color: var(--gray);
+    border: none;
+    outline: none;
+    text-align: center;
+    padding-left: 3px;
+    font-size: .74rem;
+}
+
+.time-stopwatch,
+.time-countdown {
+  background-color: var(--gray);
+  width: 100%;
+  height: 100%;
+  padding: 30px 50px 30px;
+  /* padding: 50px 50px 40px; */
+  font-size: 1.6rem;
+
+  border-radius: 30px 30px 0 0;
+  text-align: center;
+  border-bottom: 2px solid var(--red);
+  border-left: 2px solid var(--red);
+  border-right: 2px solid var(--red);
+}
+
+.buttons {
+  padding: 15px 12px 20px;
+  border-radius: 0 0 5px 5px;
+  background-color: var(--black);
+}
+button {
+  padding: 8px 20px;
+  background-color: var(--red);
+  border: none;
+  outline: none;
+  color: var(--gray);
+  border-radius: 10px;
+  transition: 0.5s all ease;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+button:active {
+  opacity: 0.8;
+}
+
+
