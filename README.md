@@ -35,7 +35,7 @@
 <a name="about-the-project"></a>
 ## ℹ️ About The Project
 
-[![countdown-app](./project.png)](https://stockapp-fullstack-render.onrender.com/) 
+[![countdown-app](./project.png)](https://updown-count.netlify.app/) 
 
 
 
